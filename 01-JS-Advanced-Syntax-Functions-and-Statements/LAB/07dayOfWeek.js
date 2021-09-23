@@ -19,8 +19,30 @@ function dayOfWeek(string) {
         default:
             return "error";
             break;
+    }  
+}
+
+/**
+ * function dayOfWeek(string) {
+    let day_of_week = [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+    ]
+    if (day_of_week.includes(string)) {
+        result = day_of_week.indexOf(string) + 1
+        return result;
+    } else {
+        return "error";
     }
 }
+console.log(dayOfWeek("Monday"));
+ */
+
 
     
 console.log(dayOfWeek("Monday"))
