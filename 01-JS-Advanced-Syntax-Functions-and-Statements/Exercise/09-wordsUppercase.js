@@ -1,7 +1,7 @@
 function uppercase(text) {
     let result = text.toUpperCase()
     .match(/\w+/g)
-    // .join(', ');
+    .join(', ');
 
     console.log(result)
 }
