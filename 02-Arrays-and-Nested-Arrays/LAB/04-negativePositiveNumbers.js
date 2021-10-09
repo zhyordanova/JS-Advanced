@@ -12,5 +12,13 @@ function negativePositive(numbers) {
     console.log(result.join('\n'));
 }
 
-negativePositive([7, -2, 8, 9]);
-negativePositive([3, -2, 0, -1]);
+
+
+negativePositive(
+    [7, -2, 8, 9]
+    );
+    
+negativePositive(
+    [3, -2, 0, -1]
+    );
+    

@@ -5,5 +5,6 @@ function firstLast(strings) {
     return first + last;
 }
 
+
 console.log(firstLast(['20', '30', '40']));
 console.log(firstLast(['5', '10']));

@@ -16,5 +16,6 @@ function numbersSequesnce(n, k) {
     return arr;
 }
 
+
 console.log(numbersSequesnce(6, 3));
 console.log(numbersSequesnce(8, 2));

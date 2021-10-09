@@ -4,5 +4,12 @@ const solve = (numbers) => numbers
     .reverse()
     .join(' ');
 
-console.log(solve([10, 15, 20, 25]));
-console.log(solve([3, 0, 10, 4, 7, 3]));
+
+console.log(solve(
+    [10, 15, 20, 25]
+    ));
+    
+console.log(solve(
+    [3, 0, 10, 4, 7, 3]
+    ));
+    

@@ -14,10 +14,10 @@ function diadonalsums(matrix) {
 diadonalsums(
   [[20, 40],
   [10, 60]
-  ]);
+]);
 
 diadonalsums(
   [[3, 5, 7, 12],
   [-1, 4, 33, 2],
   [8, 3, 0, 4]
-  ]);
+]);
