@@ -1,12 +1,11 @@
 function validate() {
+    const regExp = /[a-z]+@[a-z]+\.[a-z]/;
     const inputField = document.getElementById('email');
-    const validMailPattern = /(^[a-z]+@[a-z]+\.[a-z]+$)/;
-
-    inputField.addEventListener('change', () => {
-        if (!validMailPattern.test(inputField.value)) {
-            inputField.classList.add('error');
-        } else {
-            inputField.classList.remove('error');
+    inputField.addEventListener('change',()=>{
+        if(inputField.value.match(regExp)){
+            inputField.className = '';
+        }else{
+            inputField.className = 'error'
         }
-    });
+    })
 }
